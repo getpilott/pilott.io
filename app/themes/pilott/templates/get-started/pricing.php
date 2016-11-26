@@ -5,7 +5,7 @@
 ?>
 
 
-<section class="_gradient section-padding">
+<section class="_green section-padding">
   <div class="container">
     <article class="pricing">
       <header class="white pricing__lead">

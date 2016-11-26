@@ -4,7 +4,7 @@
  */
 ?>
 
-<section class="case-studies _gradient section-padding">
+<section class="case-studies _green section-padding">
   <div class="container">
     <div class="case-study__wrap">
       <article class="case-study__item _white">

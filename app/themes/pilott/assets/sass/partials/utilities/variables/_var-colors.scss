@@ -14,14 +14,10 @@ $gray-light: #f5f8fa;
 // BRAND COLORS
 // =============================================================================
 
-$brand-color: #bc4e9c;
+$brand-color: #33efb7;
 
-$purple: $brand-color;
-$magenta: #f80759;
-
-%purple-gradient {
-  @include linear-gradient(to right, $purple, $magenta);
-}
+$green: $brand-color;
+$blue: #3F5476;
 
 // COLOR LISTS FOR UTILITY CLASSES - see `sass/global/_utility-classes.scss
 // Array format: 'class-base': $color-var, where `class-base' would output as
@@ -35,8 +31,8 @@ $color-styles: (
   'brand-color': $brand-color,
   'gray': $gray,
   'gray-dark': $gray-dark,
-  'magenta': $magenta,
-  'purple': $purple
+  'green': $green,
+  'blue': $blue
 );
 
 

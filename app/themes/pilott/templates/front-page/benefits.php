@@ -4,7 +4,7 @@
  */
 ?>
 
-<section class="_gradient section-padding">
+<section class="_green section-padding">
   <div class="container">
     <div class="benefits">
       <header class="benefits__lead">

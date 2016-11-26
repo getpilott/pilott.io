@@ -23,7 +23,7 @@ var Apollo = {
   front_page: {
     init: function() {
       var homeAnimation = require('homeAnimation.js');
-      homeAnimation();
+      // homeAnimation();
     },
     finalize: function() {
 

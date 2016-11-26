@@ -34,7 +34,6 @@
 }
 
 .rangeslider__fill {
-  @extend %purple-gradient;
   position: relative;
 
   &:before {
@@ -60,7 +59,7 @@
 }
 
 .rangeslider__handle {
-  background: $magenta;
+  background: $blue;
   cursor: pointer;
   color: $white;
   display: table-cell;

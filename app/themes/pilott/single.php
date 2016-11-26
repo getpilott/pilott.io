@@ -1,5 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
-  <div class="_gradient section-padding">
+  <div class="_green section-padding">
     <div class="container">
       <article <?php post_class('single__article _white'); ?>>
 

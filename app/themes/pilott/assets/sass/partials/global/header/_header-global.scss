@@ -1,16 +1,12 @@
 // Global Header Styles
 
 .global-header {
-  @extend %purple-gradient;
+  background-color: $green;
   left: 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
-
-  a {
-    color: $white;
-  }
 
   .container-flex {
     align-items: center;
@@ -39,6 +35,8 @@
 
   a {
     position: relative;
+    color: $black;
+    font-weight: 400;
 
     &:after {
       @include standard-trans();

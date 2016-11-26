@@ -26,21 +26,21 @@
   &:focus {
     background-color: $white;
     border-color: $white;
-    color: $magenta;
+    color: $blue;
   }
 }
 
 .btn-outline--purple {
   @extend %btn-outline;
   background-color: transparent;
-  border-color: $purple;
-  color: $purple;
+  border-color: $green;
+  color: $green;
   padding: $space-sm $space-md;
 
   &:hover,
   &:focus {
-    background-color: $purple;
-    border-color: $purple;
+    background-color: $green;
+    border-color: $green;
     color: $white;
   }
 }

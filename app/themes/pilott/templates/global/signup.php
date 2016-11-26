@@ -16,7 +16,7 @@
     </div>
   </section>
 <?php else: ?>
-  <section class="_gradient section-padding">
+  <section class="_green section-padding">
     <div class="container">
       <article class="global-signup">
         <div class="global-signup__title">

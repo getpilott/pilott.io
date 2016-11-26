@@ -54,10 +54,6 @@
   }
 }
 
-._gradient {
-  @extend %purple-gradient;
-}
-
 .img-r {
   @include img-responsive();
 }
@@ -75,9 +71,5 @@
   @include media($small) {
     padding-bottom: $space-xxl;
     padding-top: $space-xxl;
-  }
-
-  &._gradient + ._gradient.section-padding { // If 2 gradient section meet, remove padding on top
-    padding-top: 0;
   }
 }
