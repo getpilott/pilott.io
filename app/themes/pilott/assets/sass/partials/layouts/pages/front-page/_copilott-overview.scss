@@ -1,0 +1,49 @@
+// Front Page: CoPilott
+// --------------------
+
+.copilott-overview_wrap {
+  text-align: center;
+
+  @include media($large) {
+    @include center-column(11);
+  }
+}
+
+.copilott-overview__lead {
+  margin-bottom: $space-xl;
+
+  @include media($large) {
+    @include center-column(8);
+  }
+}
+
+.copilott-overview__icon {
+  @include span-columns(2);
+}
+
+.copilott-overview__content {
+  @include span-columns(10);
+}
+
+.copilott-overview__title {
+  margin-bottom: $space-xs;
+}
+
+.copilott-overview__subtitle {
+  font-weight: 400;
+}
+
+.copilott-overview__item {
+  @include span-columns(12);
+  text-align: left;
+  margin-bottom: $space-lg;
+
+  @include media($small) {
+    @include span-columns(5.5);
+    @include omega(2n);
+
+    &:nth-of-type(2n) {
+      @include shift(1);
+    }
+  }
+}
