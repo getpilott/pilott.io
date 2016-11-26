@@ -1,0 +1,44 @@
+// Company: Overview
+// --------------------
+
+.company__lead {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(10);
+  }
+}
+
+.company__subtitle {
+  margin-top: $space-md;
+}
+
+// Stats
+
+.stats__wrap {
+  border-collapse: separate;
+  border-spacing: rem(2);
+
+  @include media($small) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}
+
+.stats__item {
+  padding: $space-xl $space-md;
+  margin-bottom: rem(2);
+  text-align: center;
+
+  @include media($small) {
+    padding: $space-xxl $space-lg;
+    display: table-cell;
+    width: 100px;
+  }
+}
+
+.stats__subtitle {
+  margin-top: $space-sm;
+  font-weight: 400;
+}

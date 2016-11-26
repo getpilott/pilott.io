@@ -1,0 +1,137 @@
+// Front Page Styles
+// -----------------
+
+
+// Mission
+
+.mission {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+// Overview
+
+.overview {
+  @include media($medium) {
+    @include center-column(10);
+  }
+
+  @include media($large) {
+    @include center-column(8);
+  }
+}
+
+.overview__item {
+  margin-bottom: $space-xl;
+}
+
+.overview__lead {
+  text-align: center;
+  margin-bottom: $space-xl;
+
+  br {
+    @include media($medium-max) {
+      display: none;
+    }
+  }
+}
+
+.overview__icon {
+  @include span-columns(2);
+  margin-top: $space-sm;
+
+  @include media($medium) {
+    margin-top: 0;
+    @include span-columns(4.5);
+  }
+}
+
+.overview__content {
+  @include span-columns(9);
+  @include shift(1)
+
+  @include media($medium) {
+    @include span-columns(6.5);
+    @include shift(1);
+  }
+}
+
+.overview__title {
+  margin-bottom: $space-sm;
+}
+
+.overview__highlights {
+  margin-top: $space-md;
+}
+
+// Benefits
+
+.benefits {
+  text-align: center;
+
+  @include media($large) {
+    @include center-column(11);
+  }
+}
+
+.benefits__lead {
+  margin-bottom: $space-lg;
+}
+
+
+.benefits__wrap {
+  border-collapse: separate;
+  border-spacing: rem(2);
+
+  @include media($large) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}
+
+.benefits__item {
+  padding: rem(50) rem(30);
+  margin-bottom: rem(2);
+
+  @include media($large-max) {
+    @include span-columns(6);
+    margin-bottom: $gutter;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+  }
+
+  @include media($large) {
+    display: table-cell;
+    width: 100px;
+  }
+}
+
+.benefits__icon {
+  margin-bottom: $space-lg;
+}
+
+.benefits__title {
+  margin-bottom: $space-sm;
+}
+
+// Quote
+
+.quote {
+  margin-top: $space-xl;
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+.quote__author {
+  font-weight: 300;
+  margin-top: $space-md;
+}

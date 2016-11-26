@@ -1,0 +1,76 @@
+// Global Archive Styles
+// ---------------------
+
+.blog__archive {
+  @include center-column(10);
+  padding-top: $space-md;
+  padding-bottom: $space-xl;
+}
+
+.blog__post {
+  padding: $space-lg;
+
+  + .blog__post {
+    margin-top: rem(2);
+  }
+}
+
+.blog__thumbnail {
+  @include span-columns(4);
+}
+
+.blog__content {
+  @include span-columns(7.75);
+  @include shift(.25);
+}
+
+.blog__title {
+  font-weight: 400;
+}
+
+.blog__meta {
+  margin-bottom: $space-md;
+  font-weight: 400;
+
+  > * {
+    display: inline-block;
+    margin-right: $space-sm;
+  }
+}
+
+// Categories
+
+.blog__categories {
+  @extend .sm-caps;
+  @extend .xs-sans;
+  font-weight: 400;
+  padding-bottom: $space-md;
+
+  a {
+    color: $white;
+    margin-right: $space-md;
+    position: relative;
+    display: inline-block;
+
+
+    &:after {
+      @include standard-trans();
+      opacity: 0;
+      content: '';
+      display: block;
+      position: absolute;
+      height: rem(1);
+      width: 100%;
+      bottom: rem(-3);
+      left: 0;
+      background-color: $white;
+    }
+
+    &:hover {
+      &:after {
+        bottom: 0;
+        opacity: 1;
+      }
+    }
+  }
+}

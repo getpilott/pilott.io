@@ -1,0 +1,33 @@
+// Global Page Header
+// ------------------
+
+.page-header {
+  text-align: center;
+  background-image: url('../../dist/images/shape-bkg.svg');
+  padding-top: rem(100);
+  padding-bottom: rem(80);
+
+  @include media($small) {
+    padding-top: rem(160);
+    padding-bottom: rem(140);
+  }
+}
+
+.page-header__title {
+  margin-bottom: $space-sm;
+}
+
+.page-header__content {
+
+  br {
+    display: none;
+  }
+
+  @include media($medium) {
+    @include center-column(7);
+
+    br {
+      display: inline-block;
+    }
+  }
+}

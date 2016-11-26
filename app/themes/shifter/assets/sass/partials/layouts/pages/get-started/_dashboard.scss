@@ -1,0 +1,44 @@
+// Get Started: Dashboard
+// --------------------
+
+.dashboard {
+
+  @include media($medium) {
+    @include center-column(10);
+  }
+}
+
+.dashboard__lead {
+}
+
+
+.dashboard__features {
+  margin-bottom: $space-lg;
+
+  @include media($small) {
+    @include span-columns(4);
+    margin-bottom: 0;
+  }
+}
+
+.feature__item {
+  + .feature__item {
+    margin-top: $space-lg;
+  }
+}
+
+.feature__title {
+  font-weight: 600;
+  margin-bottom: $space-sm;
+}
+
+.dashboard__screenshot {
+  @include media($small) {
+    @include span-columns(7);
+    @include shift(1);
+  }
+
+  img {
+    box-shadow: rem(3) rem(3) rem(12) transparentize($black, .75);
+  }
+}

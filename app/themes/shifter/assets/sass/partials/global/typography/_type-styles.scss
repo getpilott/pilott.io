@@ -1,0 +1,106 @@
+// Type Styles
+// -----------
+
+// GLOBAL
+// =============================================================================
+
+p {
+  margin: 0;
+
+  & + p {
+    margin: ($base-spacing / 2) 0 0;
+  }
+}
+
+b,
+strong {
+  @include semi-bold();
+}
+
+
+// TYPE CLASSES
+// =============================================================================
+
+// Sans Serif
+.yuge-sans {
+  font-family: $sans;
+  font-size: rem(90);
+  line-height: 1.07;
+}
+
+.xxl-sans {
+  font-family: $sans;
+  font-size: rem(68);
+  line-height: 1.14;
+}
+
+.xl-sans {
+  font-family: $sans;
+  font-size: rem(32);
+  font-weight: 600;
+  line-height: 1.18;
+
+  @include media($small) {
+    font-size: rem(60);
+    line-height: 1.2;
+  }
+}
+
+.lg-sans {
+  font-family: $sans;
+  font-size: rem(30);
+  font-weight: 600;
+  line-height: 1.36;
+}
+
+.md-sans {
+  font-family: $sans;
+  font-size: rem(25);
+  font-weight: 700;
+  line-height: 1.36;
+}
+
+.sm-sans {
+  font-family: $sans;
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.xs-sans {
+  font-family: $sans;
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+// Helpers
+.sm-caps {
+  letter-spacing: rem(.5);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+
+// TITLES
+// =============================================================================
+
+.section-lead {
+  text-align: center;
+  margin-bottom: $space-xl;
+}
+
+
+// POST ELEMENTS
+// =============================================================================
+
+
+
+// PAGE ELEMENTS
+// =============================================================================
+
+
+
+// LIST ELEMENTS
+// =============================================================================

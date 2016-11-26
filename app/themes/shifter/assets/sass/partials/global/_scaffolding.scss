@@ -1,0 +1,50 @@
+// Global Scaffolding
+// ------------------
+
+// Container
+.container-fluid {
+  @include outer-container(100%);
+}
+
+.container {
+  @include outer-container(100%);
+  margin-right: $gutter;
+  margin-left: $gutter;
+
+  @include media($large) {
+    @include base-container();
+  }
+}
+
+.container-flex {
+  @include outer-container(100%);
+  display: flex;
+  margin-right: $gutter;
+  margin-left: $gutter;
+
+  @include media($large) {
+    @include base-container();
+  }
+}
+
+.row {
+  @include row();
+}
+
+// Sidebar
+.sidebar-right {
+  .main-content {
+
+    @include media($medium) {
+      @include span-columns(7);
+    }
+  }
+
+  .sidebar {
+
+    @include media($medium) {
+      @include span-columns(4);
+      @include shift(1);
+    }
+  }
+}

@@ -1,0 +1,122 @@
+// Get Started: Pricing
+// -----------------
+
+// Pricing Signup
+
+.pricing {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.plans {
+
+  @include media($medium) {
+    @include fill-parent();
+    border-collapse: separate;
+    border-spacing: rem(2);
+    display: table;
+  }
+}
+
+.pricing__lead {
+  margin-bottom: $space-lg;
+}
+
+.plans__signup {
+  padding-top: $space-lg;
+
+  @include media($medium) {
+    display: table-cell;
+    padding: rem(50);
+    position: relative;
+    width: 40%;
+  }
+}
+
+.plans__price {
+  font-weight: 400;
+  margin-bottom: $space-md;
+
+  @include media($medium) {
+    padding-top: 0;
+  }
+
+  span {
+    font-weight: 400;
+  }
+}
+
+.plans__details {
+  padding: $space-lg;
+
+  @include media($medium) {
+    display: table-cell;
+  }
+}
+
+.plans__includes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plans__includes-title {
+  margin-bottom: $space-sm;
+  margin-top: $space-sm;
+}
+
+// Pricing Calc
+
+.pricing-calc {
+  margin-top: $space-xl;
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.calc {
+  margin-top: $space-md;
+
+  @include media($medium) {
+    display: flex;
+  }
+}
+
+.calc__wrap {
+  padding: $space-lg $space-lg $space-xl;
+}
+
+.calc__price {
+  align-self: center;
+
+  @include media($medium) {
+    width: 40%;
+  }
+}
+
+.calc__vars {
+
+  @include media($medium) {
+    width: 60%;
+  }
+}
+
+.calc__var {
+  + .calc__var {
+    margin-top: $space-lg;
+  }
+}
+
+.calc__label {
+  display: block;
+  margin-bottom: $space-md;
+}
+
+.calc__range {
+  width: 100%
+}

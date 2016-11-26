@@ -1,0 +1,20 @@
+// Global Modules: Signup
+// ----------------------
+
+.global-signup {
+  @include center-column(8);
+  text-align: center;
+
+  span {
+    display: inline-block;
+    font-weight: 400;
+
+    @include media($small-max) {
+      margin-bottom: $space-md;
+    }
+  }
+}
+
+.global-signup__title {
+  margin-bottom: $space-lg;
+}

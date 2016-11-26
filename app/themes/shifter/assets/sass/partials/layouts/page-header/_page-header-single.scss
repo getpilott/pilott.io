@@ -1,0 +1,37 @@
+// Page Header: Single
+// ---------------------
+
+.single {
+  .page-header-single {
+    text-align: left;
+  }
+
+  .page-header-single__content {
+    @include center-column(10);
+  }
+}
+
+
+.page-header-single {
+  text-align: center;
+  padding-top: $space-xl;
+  padding-bottom: $space-xl;
+
+  @include media($small) {
+    padding-top: $space-xxl;
+    padding-bottom: $space-xxl;
+  }
+}
+
+.page-header-single__title {
+  margin-bottom: $space-sm;
+}
+
+.page-header-single__meta {
+  font-weight: 400;
+  margin-bottom: $space-sm;
+
+  > * {
+    margin-right: $space-sm;
+  }
+}

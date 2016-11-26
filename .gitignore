@@ -1,0 +1,21 @@
+# Application
+app/plugins/*
+!app/plugins/.gitkeep
+app/upgrade
+app/uploads/*
+!app/uploads/.gitkeep
+app/mu-plugins/*
+!app/mu-plugins/.gitkeep
+!app/mu-plugins/eva.php
+
+# WordPress
+wp/*
+.htaccess
+
+# Vendor (e.g. Composer)
+lib/vendor/*
+!vendor/.gitkeep
+composer.lock
+
+# Apollo Config
+wp-config.php

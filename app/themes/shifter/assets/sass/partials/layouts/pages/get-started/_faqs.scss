@@ -1,0 +1,38 @@
+// Get Started: FAQs
+// --------------------
+
+.faqs {
+
+  @include media($medium) {
+    @include center-column(10);
+  }
+}
+
+.faqs__item {
+  margin-bottom: rem(2);
+}
+
+.faq__icon {
+  align-self: center;
+  float: right;
+  margin-left: auto;
+  transform: rotate(0deg);
+}
+
+.faq__title {
+  display: flex;
+  flex: 1;
+  padding: $space-lg $space-md;
+  text-align: left;
+  width: 100%;
+
+  &[aria-expanded="true"] {
+    .faq__icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.faq__content {
+  padding: 0 $space-md $space-lg;
+}

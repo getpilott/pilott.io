@@ -1,0 +1,51 @@
+// Case Studies: Archive
+// -----------------
+
+.case-study__wrap {
+  @include media($medium) {
+    @include center-column(9);
+  }
+}
+
+.case-study__item {
+  padding: $space-lg;
+
+  @include media($xsmall) {
+    display: flex;
+  }
+
+  + .case-study__item {
+    margin-top: rem(2);
+  }
+}
+
+.case-study__icon {
+  align-self: center;
+  margin-bottom: $space-lg;
+
+  @include media($xsmall) {
+    flex: 3;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+.case-study__content {
+  flex: 5;
+}
+
+.case-study__header {
+  margin-bottom: $space-md;
+}
+
+.case-study__footer {
+  margin-top: $space-md;
+}
+
+.case-study__quote {
+  margin-bottom: $space-md;
+}
+
+.case-study__source {
+  font-weight: 600;
+}
