@@ -4,26 +4,13 @@
  */
 ?>
 
-<?php if (is_front_page()): ?>
-  <section class="_white section-padding">
-    <div class="container">
-      <article class="global-signup">
-        <div class="global-signup__title">
-          <h1 class="md-sans black"><span>Are you ready for the next big thing?</span><br>Get started with Shifter today!</h1>
-        </div>
-        <a href="#" class="btn-outline--green">Sign up</a>
-      </article>
-    </div>
-  </section>
-<?php else: ?>
-  <section class="_green section-padding">
-    <div class="container">
-      <article class="global-signup">
-        <div class="global-signup__title">
-          <h1 class="md-sans white"><span>Are you ready for the next big thing?</span><br>Get started with Shifter today!</h1>
-        </div>
-        <a href="#" class="btn-outline--white">Sign up</a>
-      </article>
-    </div>
-  </section>
-<?php endif; ?>
+<section class="_green global-signup bkg-cover">
+  <div class="container">
+    <article class="">
+      <div class="global-signup__title">
+        <h1 class="md-sans white">Want to learn more about deploying or migrating a<br>large environment? We can help!</h1>
+      </div>
+      <a href="#" class="btn-solid--white">Get In Touch</a>
+    </article>
+  </div>
+</section>

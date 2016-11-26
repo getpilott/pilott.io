@@ -90,6 +90,10 @@
 
 .global-footer__social {
 
+  img {
+    border-radius: rem(5);
+  }
+
   a {
     display: inline-block;
     margin-right: $space-xs;

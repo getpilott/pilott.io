@@ -9,7 +9,7 @@
     <article class="container">
       <figure class="global-footer__logo logo">
         <a href="<?= esc_url(home_url('/')); ?>">
-          <img width="130" height="auto" src="<?= get_template_directory_uri();?>/dist/images/shifter-logo--white.svg" alt="<?php bloginfo('name'); ?>">
+          <img width="95" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-type--white.svg" alt="<?php bloginfo('name'); ?>">
         </a>
       </figure>
 
@@ -17,7 +17,7 @@
       <?php
       $pages = array(
         'include' => array(
-          21, 24, 26, 28
+          2, 5, 7, 9, 11
         ),
         'sort_column' => 'menu_order'
       );
@@ -37,7 +37,7 @@
       <?php
       $pages = array(
         'include' => array(
-          30, 32
+          22, 13
         ),
         'sort_column' => 'menu_order'
       );
@@ -55,11 +55,11 @@
       <section class="global-footer__contact">
         <article class="contact-item">
           <h4 class="xs-sans sm-caps white">Email Support</h2>
-          <a class="xs-sans sm-caps purple" href="mailto:support@getshifter.io">support@getshifter.io</a>
+          <a class="xs-sans sm-caps purple" href="mailto:support@getpilott.io">support@getpilott.io</a>
         </article>
         <article class="contact-item">
           <h4 class="xs-sans sm-caps white"> Say Hi</h4>
-          <a class="xs-sans sm-caps purple" href="mailto:hello@getshifter.io">hello@getshifter.io</a>
+          <a class="xs-sans sm-caps purple" href="mailto:hello@getpilott.io">hello@getpilott.io</a>
         </article>
       </section>
       <section class="global-footer__signup btn-group--stacked">
