@@ -18,7 +18,7 @@
           <div class="plans__price xl-sans black-light">
             $30<span class="md-sans">/mo</span>
           </div>
-          <a class="btn-outline--purple" href="#">Sign up</a>
+          <a class="btn-outline--green" href="#">Sign up</a>
         </div>
         <div class="plans__details _white">
           <h3 class="sm-sans">Power unlimited sites<br>starting at $30/month.</h3>

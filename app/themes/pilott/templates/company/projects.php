@@ -20,7 +20,7 @@
           <div class="projects__desc xs-sans">
             <p>Fully Managed WordPress Hosting built for speed and unlimited scalability.</p>
           </div>
-          <a href="#" class="btn-outline--purple">Learn More</a>
+          <a href="#" class="btn-outline--green">Learn More</a>
         </article>
         <article class="projects__item _white match-h">
           <img class="projects__icon" width="auto" height="180" src="<?= get_template_directory_uri();?>/dist/images/amimoto-ami-logo.svg" alt="">
@@ -28,7 +28,7 @@
           <div class="projects__desc xs-sans">
             <p>An Open Source Project that aims to build a robust toolkit for all developers who run WordPress on the AWS platform.</p>
           </div>
-          <a href="#" class="btn-outline--purple">Learn More</a>
+          <a href="#" class="btn-outline--green">Learn More</a>
         </article>
       </div>
     </section>

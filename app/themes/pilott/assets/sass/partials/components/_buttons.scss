@@ -15,12 +15,20 @@
   padding: $space-sm $space-md;
 }
 
+%btn-solid {
+  @include btn-reset();
+  @extend .xs-sans;
+  @extend .sm-caps;
+  font-weight: 400;
+  border-radius: rem(5);
+  padding: $space-sm $space-md;
+}
+
 .btn-outline--white {
   @extend %btn-outline;
   background-color: transparent;
   border-color: $white;
   color: $white;
-  padding: $space-sm $space-md;
 
   &:hover,
   &:focus {
@@ -30,18 +38,29 @@
   }
 }
 
-.btn-outline--purple {
+.btn-outline--green {
   @extend %btn-outline;
   background-color: transparent;
   border-color: $green;
   color: $green;
-  padding: $space-sm $space-md;
 
   &:hover,
   &:focus {
     background-color: $green;
     border-color: $green;
     color: $white;
+  }
+}
+
+.btn-solid--green {
+  @extend %btn-solid;
+  background-color: $green;
+  color: $black-light;
+
+  &:hover,
+  &:focus {
+    background-color: $green;
+    color: $black;
   }
 }
 

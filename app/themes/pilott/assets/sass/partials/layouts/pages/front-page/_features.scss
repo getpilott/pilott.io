@@ -1,0 +1,36 @@
+// Front Page: Benefits
+// --------------------
+
+.features_wrap {
+  text-align: center;
+
+  @include media($large) {
+    @include center-column(11);
+  }
+}
+
+.features__lead {
+  margin-bottom: $space-xl;
+
+  @include media($large) {
+    @include center-column(10);
+  }
+}
+
+.features__icon {
+  margin-bottom: $space-md;
+}
+
+.features__title {
+  margin-bottom: $space-sm;
+}
+
+.features__subtitle {
+  font-weight: 400;
+}
+
+.features__item {
+  @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: $space-lg;
+}

@@ -1,0 +1,19 @@
+// Front Page: Mission
+// -------------------
+
+.mission {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.mission__lead {
+  margin-bottom: $space-sm;
+}
+
+.mission__desc {
+  @extend .sm-sans;
+  font-weight: 400;
+}
