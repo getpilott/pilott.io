@@ -2,7 +2,7 @@
  * CONFIGURATION VARIABLES
  *
  */
-var devUrl = 'shifter.dev';
+var devUrl = 'pilott.dev';
 
 
 
