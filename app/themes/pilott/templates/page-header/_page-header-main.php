@@ -15,7 +15,7 @@
 <section class="page-header _white bkg-cover">
   <article class="container">
     <div class="page-header__content">
-      <h1 class="page-header__title xl-sans black"><?= $title ?></h1>
+      <h1 class="page-header__title black"><?= $title ?></h1>
       <?php if ($subtitle): ?>
         <h3 class="xs-sans"><?= $subtitle ?></h3>
       <?php endif; ?>

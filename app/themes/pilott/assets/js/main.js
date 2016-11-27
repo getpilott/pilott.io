@@ -31,9 +31,7 @@ var Apollo = {
   },
   get_started: {
     init: function() {
-      var pricingCalc = require('pricingCalc.js');
       var accordionScripts = require('accordionScripts.js');
-      pricingCalc();
       accordionScripts();
     }
   }

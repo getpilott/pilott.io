@@ -51,7 +51,6 @@
     "jshint": "^2.9.1",
     "jshint-stylish-source": "^1.0.5",
     "lodash.assign": "^4.0.6",
-    "rangeslider.js": "^2.2.1",
     "sanitize.css": "^4.1.0",
     "scrollmagic": "^2.0.5",
     "vinyl-buffer": "^1.0.0",

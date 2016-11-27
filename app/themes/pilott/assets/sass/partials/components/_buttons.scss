@@ -25,6 +25,13 @@
   padding: $space-sm $space-md;
 }
 
+%btn-link {
+  @include btn-reset();
+  @extend .xs-sans;
+  @extend .sm-caps;
+}
+
+
 .btn-outline--white {
   @extend %btn-outline;
   background-color: transparent;
@@ -74,6 +81,28 @@
   &:focus {
     background-color: $black-light;
     color: $white;
+  }
+}
+
+.btn-solid--blue_white {
+  @extend %btn-solid;
+  background-color: $white;
+  color: $blue;
+
+  &:hover,
+  &:focus {
+    background-color: $white;
+    color: $blue;
+  }
+}
+
+.btn-link--black-light {
+  @extend %btn-link;
+  color: $black-light;
+
+  &:hover,
+  &:focus {
+    color: $black-light;
   }
 }
 

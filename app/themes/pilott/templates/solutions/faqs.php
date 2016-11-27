@@ -1,6 +1,6 @@
 <?php
 /**
- * Get Started: FAQs
+ * Solutions: FAQs
  */
 ?>
 

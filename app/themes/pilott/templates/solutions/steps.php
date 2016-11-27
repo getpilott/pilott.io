@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Get Started: Steps
+ * Solutions: Steps
  */
 ?>
 

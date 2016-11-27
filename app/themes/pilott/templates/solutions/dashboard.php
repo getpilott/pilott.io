@@ -1,6 +1,6 @@
 <?php
 /**
- * Get Started: Dashboard
+ * Solutions: Dashboard
  */
 ?>
 
