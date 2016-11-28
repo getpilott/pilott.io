@@ -2,15 +2,23 @@
 /**
  * Front Page: Features
  */
+
+$title = 'Give your engines an extra boost';
+$subtitle = 'Pilott anticipates your needs and provides 24/7/365 support, so you can focus on what really matters: growing your business and delighting your users.';
+
+if (is_front_page()) {
+  $title = 'Houston, we have features!';
+  $subtitle = 'Our goal is to make the user experience as streamlined and worry-free as possible. That’s why our highly scalable hosting solutions were designed with you in mind.';
+}
 ?>
 
 <section class="_white section-padding">
   <div class="container">
     <div class="features_wrap">
       <header class="features__lead section-lead row">
-        <h1 class="lg-sans black features__title">Houston, we have features!</h1>
+        <h1 class="lg-sans black features__title"><?= $title ?></h1>
         <div class="sm-sans features__subtitle">
-          <p>Our goal is to make the user experience as streamlined and worry-free as possible. That’s why our highly scalable hosting solutions were designed with you in mind.</p>
+          <p><?= $subtitle ?></p>
         </div>
       </header>
       <section class="features row">
