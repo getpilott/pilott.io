@@ -12,7 +12,7 @@ if (is_front_page()) {
 }
 ?>
 
-<section class="_white section-padding">
+<section class="_gray-light section-padding">
   <div class="container">
     <div class="features_wrap">
       <header class="features__lead section-lead row">

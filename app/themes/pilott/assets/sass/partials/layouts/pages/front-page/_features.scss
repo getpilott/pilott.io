@@ -30,7 +30,16 @@
 }
 
 .features__item {
-  @include span-columns(4);
-  @include omega(3n);
   margin-bottom: $space-lg;
+
+  @include media($small) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($medium) {
+    @include span-columns(4);
+    @include omega-reset(2n);
+    @include omega(3n);
+  }
 }

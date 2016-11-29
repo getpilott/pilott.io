@@ -10,4 +10,4 @@ get_template_part('templates/global/features');
 get_template_part('templates/front-page/copilott-overview');
 get_template_part('templates/global/clients');
 get_template_part('templates/global/case-studies');
-get_template_part('templates/global/contact');
+get_template_part('templates/global/migration');

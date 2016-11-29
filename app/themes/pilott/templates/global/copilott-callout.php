@@ -4,13 +4,23 @@
  */
 ?>
 
-<section class="_green global-copilott-callout bkg-cover">
+<section class="case-studies _white section-padding">
   <div class="container">
-    <article class="">
-      <div class="global-copilott-callout__title">
-        <h1 class="md-sans white">Want to learn more about deploying or migrating a<br>large environment? We can help!</h1>
-      </div>
-      <a href="#" class="btn-solid--white">Get In Touch</a>
-    </article>
+    <div class="copilott-callout__wrap">
+      <article class="copilott-callout__item _blue">
+        <figure class="copilott-callout__icon">
+          <img class="client__logo" width="170" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--two-tone.svg" alt="">
+        </figure>
+        <div class="copilott-callout__content">
+          <h1 class="sm-sans green">CoPilott Expert Services</h1>
+          <div class="copilott-callout__source white sm-sans">
+            <p>Need a service plan built specifically for you? Roger that. We offer customized, best-in-class support services to fit your site’s unique needs.</p>
+          </div>
+        </div>
+        <div class="copilott-callout__link">
+          <a href="#" class="btn-outline--white">Learn More</a>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
