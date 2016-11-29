@@ -24,7 +24,7 @@ function add_custom_body_classes( $classes ) {
 
   }
 
-  if (is_page(array('get-started'))) {
+  if (is_page()) {
     global $post;
     $classes[] = $post->post_name;
   }

@@ -12,7 +12,7 @@
           <img width="170" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--two-tone.svg" alt="">
         </figure>
         <div class="copilott-callout__content">
-          <h1 class="sm-sans green">CoPilott Expert Services</h1>
+          <h1 class="sm-sans green copilott-callout__title">CoPilott Expert Services</h1>
           <div class="copilott-callout__source white sm-sans">
             <p>Need a service plan built specifically for you? Roger that. We offer customized, best-in-class support services to fit your site’s unique needs.</p>
           </div>

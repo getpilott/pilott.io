@@ -1,0 +1,39 @@
+// Solutions: Key Benefits
+// ----------------------
+
+.key-benefits__lead {
+  @include center-column(8);
+  margin-bottom: $space-xl;
+  text-align: center;
+}
+
+.key-benefits__subtitle {
+  font-weight: 400;
+}
+
+.key-benefits__item {
+  margin-bottom: $space-xl;
+  @include span-columns(12);
+
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.key-benefits__icon {
+  @include span-columns(2);
+}
+
+.key-benefits__content {
+  @include span-columns(9);
+  @include shift(1);
+
+  @include media($small) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+}
+
+.key-benefits__content-title {
+  margin-bottom: $space-sm;
+}

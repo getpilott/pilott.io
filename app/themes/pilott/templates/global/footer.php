@@ -25,7 +25,7 @@
       $pages = get_pages($pages);
 
       foreach ($pages as $page) {
-        $id     = $page->id;
+        $id     = $page->ID;
         $title  = $page->post_title;
         $link   = get_permalink($id);
         ?>
@@ -37,7 +37,7 @@
       <?php
       $pages = array(
         'include' => array(
-          22, 13
+          31, 35, 22, 13
         ),
         'sort_column' => 'menu_order'
       );
@@ -45,7 +45,7 @@
       $pages = get_pages($pages);
 
       foreach ($pages as $page) {
-        $id     = $page->id;
+        $id     = $page->ID;
         $title  = $page->post_title;
         $link   = get_permalink($id);
         ?>

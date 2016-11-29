@@ -5,7 +5,7 @@
   margin-bottom: $space-xl;
   text-align: center;
 
-  @include media($large) {
+  @include media($medium) {
     @include center-column(7);
   }
 }

@@ -6,7 +6,7 @@
   background-image: url('../../dist/images/path-bkg.svg');
   padding-top: rem(100);
   padding-bottom: rem(80);
-  max-height: rem(600);
+  max-height: rem(700);
 
   @include media($small) {
     padding-top: rem(100);
@@ -42,12 +42,14 @@
 }
 
 .page-header-solutions__icon {
-  @include center-column(3);
-  overflow: visible;
-  height: 0;
+
+  @include media($small) {
+    @include span-columns(2);
+    @include shift(5);
+  }
 
   img {
-    transform: translateY(-10%);
+    // transform: translateY(20%);
   }
 }
 
@@ -56,7 +58,10 @@
 }
 
 .page-header-solutions__features {
-  @include span-columns(2.5);
+  @include media($small) {
+    @include span-columns(3);
+    @include shift(-7);
+  }
 
   ul {
     margin-top: 0;
@@ -64,8 +69,11 @@
 }
 
 .page-header-solutions__link {
-  @include span-columns(2.5);
-  @include shift(7);
+
+  @include media($small) {
+    @include span-columns(3);
+    @include shift(2);
+  }
 
   a {
     margin-top: $space-md;
