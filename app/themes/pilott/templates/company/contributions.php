@@ -13,7 +13,7 @@
         <p>High performance hosting solutions for<br>enterprise and WooCommerce sites.</p>
       </div>
     </article>
-    <article class="offers__item _gray-light match-h">
+    <article class="offers__item _white match-h">
       <img class="offers__icon" width="auto" height="180" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--green.svg" alt="">
       <h2 class="md-sans offers__title green">CoPilott Expert Services</h2>
       <div class="offers__desc xs-sans">
