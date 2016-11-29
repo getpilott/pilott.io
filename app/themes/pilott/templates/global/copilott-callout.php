@@ -9,7 +9,7 @@
     <div class="copilott-callout__wrap">
       <article class="copilott-callout__item _blue">
         <figure class="copilott-callout__icon">
-          <img class="client__logo" width="170" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--two-tone.svg" alt="">
+          <img width="170" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--two-tone.svg" alt="">
         </figure>
         <div class="copilott-callout__content">
           <h1 class="sm-sans green">CoPilott Expert Services</h1>
