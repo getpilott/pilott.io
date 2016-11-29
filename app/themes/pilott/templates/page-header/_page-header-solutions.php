@@ -80,5 +80,37 @@
     </article>
   </section>
 <?php elseif(is_page('copilott')): ?>
-copilott
+  <section class="page-header-solutions _blue bkg-cover">
+    <article class="container">
+      <div class="page-header-solutions__content">
+        <h1 class="page-header-solutions__title white"><?= $title ?></h1>
+        <?php if ($subtitle): ?>
+          <h3 class="xs-sans"><?= $subtitle ?></h3>
+        <?php endif; ?>
+      </div>
+      <div class="page-header-solutions__wrap">
+        <div class="page-header-solutions__icon">
+          <img class="img-r" width="170" height="auto" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--green-two-stars.svg" alt="">
+        </div>
+        <div class="page-header-solutions__features white">
+          <h3 class="solutions__title sm-sans">CoPilott offers:</h3>
+          <div>
+            <ul>
+              <li>Customized expert support</li>
+              <li>Cloud security services</li>
+              <li>Professional code review</li>
+              <li>Performance monitoring</li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-header-solutions__link white">
+          <h3 class="solutions__title sm-sans">Backed by AWS</h3>
+          <div>
+            <p>Whether you host with us or host your own site, our AWS-certified professional engineers are here to provide the customized support you need. </p>
+          </div>
+          <a class="btn-outline--green" href="#">Learn More</a>
+        </div>
+      </div>
+    </article>
+  </section>
 <?php endif; ?>

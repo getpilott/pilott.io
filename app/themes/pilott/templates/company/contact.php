@@ -4,7 +4,7 @@
  */
 ?>
 
-<section class="section-padding _gradient">
+<section class="section-padding _green">
   <article class="container">
     <header class="section-lead white">
       <h1 class="lg-sans">Contact us for advice, support,<br />or additional information.</h1>
