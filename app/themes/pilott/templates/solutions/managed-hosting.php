@@ -8,7 +8,7 @@
   <div class="container">
     <article class="pricing">
       <header class="white pricing__lead">
-        <h1 class="lg-sans">Magaged Hosting</h1>
+        <h1 class="lg-sans">Managed Hosting</h1>
         <h3 class="xs-sans">Our hosting architecture is tailored for enterprise use with high performance, high fault-tolerance systems—even when traffic surges.</h3>
       </header>
       <div class="plans">
@@ -84,7 +84,7 @@
             <p>We offer a variety of managed hosting plans to fit your needs—find the best one for you
           </div>
           <div class="row">
-            <a class="pricing__link btn-solid--blue_white" href="#">Learn More</a>
+            <a class="pricing__link btn-solid--blue_white" href="<?= esc_url(home_url('/')); ?>/solutions/managed-hosting">Learn More</a>
           </div>
         </div>
       </div>
