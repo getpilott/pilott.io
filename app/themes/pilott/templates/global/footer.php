@@ -33,11 +33,31 @@
       <?php } ?>
       </nav>
 
+      <nav class="global-footer__links primary">
+      <?php
+      $pages = array(
+        'include' => array(
+          31, 35, 33
+        ),
+        'sort_column' => 'menu_order'
+      );
+
+      $pages = get_pages($pages);
+
+      foreach ($pages as $page) {
+        $id     = $page->ID;
+        $title  = $page->post_title;
+        $link   = get_permalink($id);
+        ?>
+        <a class="xs-sans sm-caps white" href="<?= $link ?>"><?= $title ?></a>
+      <?php } ?>
+      </nav>
+
       <nav class="global-footer__links secondary">
       <?php
       $pages = array(
         'include' => array(
-          31, 35, 22, 13
+          22, 13
         ),
         'sort_column' => 'menu_order'
       );
