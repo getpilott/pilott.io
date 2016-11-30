@@ -83,8 +83,11 @@
         </article>
       </section>
       <section class="global-footer__signup btn-group--stacked">
+        <!--
         <a href="#" class="btn-outline--white">Login</a>
         <a href="#" class="btn-outline--white">Signup</a>
+        -->
+        <a class="btn-outline--white" href="#">Contact us</a>
       </section>
     </article>
   </section>
