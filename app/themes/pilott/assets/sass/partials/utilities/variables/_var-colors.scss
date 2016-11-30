@@ -1,0 +1,53 @@
+// Variables: Colors
+// -----------------
+
+// MONOTONE
+// =============================================================================
+$white: #fff;
+$black: #000;
+$black-light: #3B3B3B;
+$gray-dark: #666666;
+$gray: #999999;
+$gray-light: #efefef;
+
+
+// BRAND COLORS
+// =============================================================================
+
+$brand-color: #33efb7;
+
+$green: $brand-color;
+$blue: #3F5476;
+
+// COLOR LISTS FOR UTILITY CLASSES - see `sass/global/_utility-classes.scss
+// Array format: 'class-base': $color-var, where `class-base' would output as
+// both `.class-base` and `._class-base`
+// =============================================================================
+$color-styles: (
+  'gray-light': $gray-light,
+  'white': $white,
+  'black': $black,
+  'black-light': $black-light,
+  'brand-color': $brand-color,
+  'gray': $gray,
+  'gray-dark': $gray-dark,
+  'green': $green,
+  'blue': $blue
+);
+
+
+// ELEMENT COLORS
+// =============================================================================
+
+// Background Color
+$base-background-color: $white;
+
+// Font Colors
+$base-font-color:     $gray-dark;
+$base-accent-color:   $brand-color;
+
+// Link Colors
+$base-link-color:     $base-accent-color;
+$hover-link-color:    $base-font-color;
+$base-button-color:   $base-link-color;
+$hover-button-color:  $hover-link-color;

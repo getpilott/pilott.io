@@ -1,0 +1,46 @@
+// Solutions: Addons
+// ----------------------
+
+.addons__lead {
+  margin-bottom: $space-xl;
+  text-align: center;
+
+  @include media($small) {
+    @include center-column(8);
+  }
+}
+
+.addons__subtitle {
+  font-weight: 400;
+}
+
+.addons__item {
+  margin-bottom: $space-xxl;
+  @include span-columns(12);
+
+  @include media($medium) {
+    @include center-column(10);
+  }
+}
+
+.addons__icon {
+  @include span-columns(3);
+
+  @include media($small) {
+    @include span-columns(4);
+  }
+}
+
+.addons__content {
+  @include span-columns(8);
+  @include shift(1);
+
+  @include media($small) {
+    @include span-columns(6.5);
+    @include shift(1.5);
+  }
+}
+
+.addons__content-title {
+  margin-bottom: $space-sm;
+}

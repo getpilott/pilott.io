@@ -1,0 +1,86 @@
+// Solutions: Pricing
+// -----------------
+
+.pricing__lead {
+  margin-bottom: $space-xl;
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+.plans {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  text-align: center;
+
+  @include media($medium) {
+    display: flex;
+    flex: 1;
+  }
+}
+
+.plans__price {
+  font-weight: 400;
+  font-size: rem(50);
+
+  span {
+    font-weight: 400;
+  }
+}
+
+.plans__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plans__item {
+  @include standard-trans();
+  border: rem(1) solid $black-light;
+  opacity: .8;
+  padding-top: $space-lg;
+  padding-bottom: $space-lg;
+
+  @include media($medium) {
+    margin-bottom: 0;
+    flex: 2;
+  }
+
+  &:nth-of-type(2) {
+    opacity: 1;
+    background-color: $white;
+    padding-top: rem(60);
+    padding-bottom: rem(60);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+._green {
+  .plans__item {
+    border-color: $green;
+  }
+}
+
+.plans__link {
+  margin-top: $space-md;
+}
+
+.pricing__footer {
+  margin-top: $space-xl;
+  text-align: center;
+
+  @include media($large) {
+    @include center-column(4);
+  }
+}
+
+.pricing__link {
+  margin-top: $space-md;
+}

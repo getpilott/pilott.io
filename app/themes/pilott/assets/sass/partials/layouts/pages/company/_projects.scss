@@ -1,0 +1,53 @@
+// Company: Projects
+// -----------------
+
+
+.projects {
+
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.projects__wrap {
+  border-collapse: separate;
+  border-spacing: rem(2);
+
+  @include media($small) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}
+
+.projects__item {
+  padding: $space-lg;
+  margin-bottom: rem(2);
+  text-align: center;
+
+  @include media($small) {
+    display: table-cell;
+    width: 100px;
+  }
+}
+
+.projects__subtitle {
+  margin-top: $space-sm;
+  font-weight: 400;
+}
+
+.projects__title {
+  margin-bottom: $space-sm;
+}
+
+.projects__desc {
+  margin-bottom: $space-md;
+
+  @include media($medium) {
+    min-height: rem(80);
+  }
+}
+
+.projects__icon {
+  margin-bottom: $space-lg;
+}

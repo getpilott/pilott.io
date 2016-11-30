@@ -1,0 +1,22 @@
+// Global Modules: Signup
+// ----------------------
+
+.global-signup {
+  background-image: url('../../dist/images/space-bkg.svg');
+  text-align: center;
+  padding-top: $space-xl;
+  padding-bottom: $space-xl;
+
+  span {
+    display: inline-block;
+    font-weight: 400;
+
+    @include media($small-max) {
+      margin-bottom: $space-md;
+    }
+  }
+}
+
+.global-signup__title {
+  margin-bottom: $space-lg;
+}

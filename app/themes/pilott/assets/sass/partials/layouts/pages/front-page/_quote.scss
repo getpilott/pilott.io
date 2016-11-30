@@ -1,0 +1,16 @@
+// Front Page: Quote
+// -----------------
+
+.quote {
+  margin-top: $space-xl;
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+.quote__author {
+  font-weight: 300;
+  margin-top: $space-md;
+}

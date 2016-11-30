@@ -1,0 +1,59 @@
+// Global Header Styles
+
+.global-header {
+  background-color: $green;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+  .container-flex {
+    align-items: center;
+    height: rem(100);
+  }
+}
+
+.global-nav {
+  display: none;
+
+  @include media($medium) {
+    display: block;
+  }
+
+  a {
+    @extend .xs-sans;
+    @extend .sm-caps;
+    margin-right: $space-md;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}
+
+.primary-nav {
+  display: inline-block;
+
+  a {
+    position: relative;
+    color: $black;
+    font-weight: 400;
+
+    &:after {
+      @include standard-trans();
+      opacity: 0;
+    }
+  }
+}
+
+.global-nav-toggle {
+  font-size: rem(22);
+
+  @include media($medium) {
+    display: none;
+  }
+}
+
+.logo {
+  margin-right: auto;
+  width: rem(130);
+}

@@ -1,0 +1,35 @@
+// Variables: Typography
+// ---------------------
+
+// Font-Face: http://bourbon.io/docs/#font-face
+// =============================================================================
+
+@include font-face("montserrat", "/app/themes/pilott/dist/fonts/montserrat/Montserrat-Bold", 700);
+@include font-face("montserrat", "/app/themes/pilott/dist/fonts/montserrat/Montserrat-SemiBold", 600);
+@include font-face("montserrat", "/app/themes/pilott/dist/fonts/montserrat/Montserrat-Regular", 400);
+@include font-face("montserrat", "/app/themes/pilott/dist/fonts/montserrat/Montserrat-Light", 100);
+
+// Fonts
+// =============================================================================
+
+$serif:             $georgia;
+$sans:						  montserrat, $helvetica;
+$serif-alt:         $serif;
+$sans-alt:          $sans;
+$base-font-family:  $sans;
+
+// Font Sizes
+// =============================================================================
+
+$em-base: 16px !default;
+$base-font-size: 16px;
+$base-mobile-font-size: 16px;
+$base-font-size-rem: rem(16);
+
+// Line Height
+// =============================================================================
+
+$base-line-height: 1.5;
+$base-spacing: $base-line-height * 1em;
+$body-line-height: golden-ratio(1em, 1);
+$header-line-height: 1.25;

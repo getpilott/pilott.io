@@ -1,0 +1,14 @@
+// Company: Overview
+// --------------------
+
+.company__lead {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+.company__subtitle {
+  margin-top: $space-md;
+}

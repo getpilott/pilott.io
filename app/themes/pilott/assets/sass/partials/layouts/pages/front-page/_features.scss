@@ -1,0 +1,45 @@
+// Front Page: Features
+// --------------------
+
+.features_wrap {
+  text-align: center;
+
+  @include media($large) {
+    @include center-column(11);
+  }
+}
+
+.features__lead {
+  margin-bottom: $space-xl;
+
+  @include media($large) {
+    @include center-column(10);
+  }
+}
+
+.features__icon {
+  margin-bottom: $space-md;
+}
+
+.features__title {
+  margin-bottom: $space-sm;
+}
+
+.features__subtitle {
+  font-weight: 400;
+}
+
+.features__item {
+  margin-bottom: $space-lg;
+
+  @include media($small) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($medium) {
+    @include span-columns(4);
+    @include omega-reset(2n);
+    @include omega(3n);
+  }
+}

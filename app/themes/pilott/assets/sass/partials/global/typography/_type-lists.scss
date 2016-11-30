@@ -1,0 +1,28 @@
+// List Styles
+// -----------
+
+.list-inline {
+  @include list-inline;
+}
+
+.list-unstyled {
+  @include list-unstyled;
+}
+
+.list-unstyled--seperators {
+  @include list-unstyled;
+  @extend .xs-sans;
+
+  li {
+    padding-right: $space-xs;
+
+    &:after {
+      content: '|';
+      padding-left: $space-xs;
+    }
+
+    &:last-of-type:after {
+      content: '';
+    }
+  }
+}

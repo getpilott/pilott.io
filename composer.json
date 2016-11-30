@@ -1,0 +1,80 @@
+{
+  "name": "apollo",
+  "type": "project",
+  "license": "MIT",
+  "description": "A WordPress theme bundle.",
+  "homepage": "https://github.com/j2made/apollo",
+  "authors": [
+    {
+      "name": "Daniel Olson",
+      "email": "emaildano@gmail.com",
+      "homepage": "https://github.com/emaildano"
+    },
+    {
+      "name": "Shaun M. Baer",
+      "email": "shaun.baer@gmail.com",
+      "homepage": "https://github.com/iamhexcoder"
+    }
+  ],
+  "keywords": [
+    "wordpress", "stack", "composer", "theme", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/j2made/apollo/issues"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "vendor-dir": "lib/vendor/"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"if(!file_exists('wp-config.php')) { copy('lib/config/wp-config-sample.php', 'wp-config.php'); }\""
+    ]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "iamhexcoder/patterns",
+        "version": "0.2.0",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/iamhexcoder/patterns/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.3.7",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9Mzg1Mzl8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE0LTA4LTI5IDIxOjIzOjQ4&t=5.3.7"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.6.1",
+    "composer/installers": "v1.0.25",
+    "iamhexcoder/patterns": "0.2.0",
+    "wpackagist-plugin/simple-page-ordering": "2.2.4",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.3.7"
+  },
+  "extra": {
+    "installer-paths": {
+      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "./": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wp"
+  }
+}

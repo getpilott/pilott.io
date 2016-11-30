@@ -1,0 +1,50 @@
+// Single
+// ---------------------
+
+.single__article {
+  @include center-column(10);
+  padding: $space-lg;
+
+  h1,
+  h2,
+  h3 {
+    color: $black;
+
+    + p {
+      margin-bottom: $space-md;
+    }
+  }
+
+  p {
+    + h1,
+    + h2,
+    + h3 {
+      margin-bottom: $space-sm;
+    }
+  }
+
+  h1 {
+    @extend .lg-sans;
+    margin-bottom: $space-sm;
+  }
+
+  h2 {
+    @extend .md-sans;
+    margin-bottom: $space-sm;
+  }
+
+  h3 {
+    @extend .sm-sans;
+    margin-bottom: $space-sm;
+  }
+}
+
+.single__content {
+  .entry-content {
+    @include span-columns(9);
+  }
+  .single__share {
+    @include span-columns(2.5);
+    @include shift(.5)
+  }
+}
