@@ -93,11 +93,12 @@
   </section>
   <section class="bottom _black">
     <article class="container-flex">
-      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Shifter | A <span class="purple">DigitalCube</span> Company</h6>
+      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Pillot | A <span class="purple">DigitalCube</span> Company</h6>
       <section class="global-footer__social">
-        <a href="<?= esc_url(home_url('/')); ?>">
+        <a href="https://pilott.io/company/">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
         </a>
+        <!--
         <a href="<?= esc_url(home_url('/')); ?>">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/twitter-icon.svg" alt="">
         </a>
@@ -107,6 +108,7 @@
         <a href="<?= esc_url(home_url('/')); ?>">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/instagram-icon.svg" alt="">
         </a>
+        -->
       </section>
     </article>
   </section>
