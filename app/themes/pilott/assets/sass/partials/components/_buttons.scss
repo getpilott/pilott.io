@@ -75,7 +75,7 @@
 .btn-solid--white {
   @extend %btn-solid;
   background-color: $white;
-  color: $green;
+  color: $black;
 
   &:hover,
   &:focus {
