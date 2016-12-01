@@ -9,16 +9,16 @@
     <div class="case-study__wrap">
       <article class="case-study__item _blue">
         <figure class="case-study__icon">
-          <img class="client__logo" width="115" height="auto" src="<?= get_template_directory_uri();?>/dist/images/aol-logo--white.png" alt="">
+          <img class="client__logo" width="115" height="auto" src="<?= get_template_directory_uri();?>/dist/images/j2-logo--white-outline.svg" alt="">
         </figure>
         <div class="case-study__content">
           <div class="case-study__quote md-sans green">
-            <p>"Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus."</p>
+            <p>"The first time I launched a site with Pilott, it loaded so fast I thought I was still looking at the local version."</p>
           </div>
           <div class="case-study__source white sm-sans">
-            — Zach Miller, Company
+            — Shaun Baer, J2 Design
           </div>
-          <a href="#" class="btn-outline--white">Learn More</a>
+          <a href="<?= get_permalink(31) ?>" class="btn-outline--white">Learn More</a>
         </div>
       </article>
     </div>
