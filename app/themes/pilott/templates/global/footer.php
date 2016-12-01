@@ -90,7 +90,7 @@
   </section>
   <section class="bottom _black">
     <article class="container-flex">
-      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Shifter | A <span class="purple">DigitalCube</span> Company</h6>
+      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Pilott | A <span class="green">DigitalCube</span> Company</h6>
       <section class="global-footer__social">
         <a href="<?= esc_url(home_url('/')); ?>">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
