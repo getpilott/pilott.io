@@ -3,11 +3,15 @@
 
 
 .partners__item {
-  @include span-columns(6);
-  @include omega(2n);
   text-align: center;
-  margin-bottom: $gutter * 2;
+  margin-bottom: $gutter;
   padding: $space-xl;
+
+  @include media($medium) {
+    @include span-columns(6);
+    @include omega(2n);
+
+  }
 }
 
 .partners__icon {

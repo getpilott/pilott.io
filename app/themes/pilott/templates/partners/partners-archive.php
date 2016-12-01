@@ -8,9 +8,9 @@
   <div class="container partners__list">
     <article class="partners__item _white match-h">
       <div class="partners__icon">
-        <img class="img-g" width="250" height="auto" src="<?= get_template_directory_uri();?>/dist/images/aws_partnernetwork.png" alt="">
+        <img class="img-g" width="250" height="auto" src="<?= get_template_directory_uri();?>/dist/images/AWS_Logo_Advanced_Technology_Partner.svg" alt="">
       </div>
-      <h2 class="partners__title sm-sans black-light">AWS Advanced Consulting Partner</h2>
+      <h2 class="partners__title sm-sans black-light">AWS Advanced Technology Partner</h2>
       <div class="partners__desc">
         <p>A trusted partner in the Amazon Web Services (AWS) partner network.</p>
       </div>
@@ -25,16 +25,6 @@
         <p>Rublon Account Security features two-factor authentication for web-based businesses.</p>
       </div>
       <a class="partners__link btn-link" href="https://rublon.com/">Learn More</a>
-    </article>
-    <article class="partners__item _white match-h">
-      <div class="partners__icon">
-        <img class="img-g" width="250" height="auto" src="<?= get_template_directory_uri();?>/dist/images/siterock.png" alt="">
-      </div>
-      <h2 class="partners__title sm-sans black-light">Site Rock</h2>
-      <div class="partners__desc">
-        <p>Site Rock Co., Ltd. is a management service provider that offers 24/7/365 high quality operational monitoring services through human resources, process, and systems via the internet (MSP).</p>
-      </div>
-      <a class="partners__link btn-link" href="https://www.siterock.co.jp/">Learn More</a>
     </article>
     <article class="partners__item _white match-h">
       <div class="partners__icon">
