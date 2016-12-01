@@ -83,8 +83,11 @@
         </article>
       </section>
       <section class="global-footer__signup btn-group--stacked">
+        <!--
         <a href="#" class="btn-outline--white">Login</a>
         <a href="#" class="btn-outline--white">Signup</a>
+        -->
+        <a class="btn-outline--white" href="<?= esc_url(home_url('/')); ?>solutions/managed-hosting/#signup">Sign up</a>
       </section>
     </article>
   </section>
@@ -92,9 +95,10 @@
     <article class="container-flex">
       <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Pilott | A <span class="green">DigitalCube</span> Company</h6>
       <section class="global-footer__social">
-        <a href="<?= esc_url(home_url('/')); ?>">
+        <a href="https://github.com/getpilott/">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
         </a>
+        <!--
         <a href="<?= esc_url(home_url('/')); ?>">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/twitter-icon.svg" alt="">
         </a>
@@ -104,6 +108,7 @@
         <a href="<?= esc_url(home_url('/')); ?>">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/instagram-icon.svg" alt="">
         </a>
+        -->
       </section>
     </article>
   </section>

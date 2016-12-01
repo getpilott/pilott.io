@@ -24,7 +24,7 @@
               <li>1TB Transfer</li>
               <li>Data Centers 1</li>
             </ul>
-            <a class="plans__link btn-link--black-light" href="#">Sign up</a>
+            <a class="plans__link btn-link--black-light" href="<?= get_permalink(31) ?>#signup">Sign up</a>
           </div>
           <div class="plans__item _white black-light">
             <h2 class="plans__name sm-caps xs-sans">Basic</h2>
@@ -37,7 +37,7 @@
               <li>1TB Transfer</li>
               <li>Data Centers 1</li>
             </ul>
-            <a class="plans__link btn-link--black-light" href="#">Sign up</a>
+            <a class="plans__link btn-link--black-light" href="<?= get_permalink(31) ?>#signup">Sign up</a>
           </div>
           <div class="plans__item _white black-light">
             <h2 class="plans__name sm-caps xs-sans">Basic Pro</h2>
@@ -50,7 +50,7 @@
               <li>1TB Transfer</li>
               <li>Data Centers 1</li>
             </ul>
-            <a class="plans__link btn-link--black-light" href="#">Sign up</a>
+            <a class="plans__link btn-link--black-light" href="<?= get_permalink(31) ?>#signup">Sign up</a>
           </div>
           <div class="plans__item _white black-light">
             <h2 class="plans__name sm-caps xs-sans">Premium</h2>
@@ -63,7 +63,7 @@
               <li>1TB Transfer</li>
               <li>Data Centers 1</li>
             </ul>
-            <a class="plans__link btn-link--black-light" href="#">Sign up</a>
+            <a class="plans__link btn-link--black-light" href="<?= get_permalink(31) ?>#signup">Sign up</a>
           </div>
           <div class="plans__item _white black-light">
             <h2 class="plans__name sm-caps xs-sans">Gold</h2>
@@ -76,7 +76,7 @@
               <li>1TB Transfer</li>
               <li>Data Centers 1</li>
             </ul>
-            <a class="plans__link btn-link--black-light" href="#">Sign up</a>
+            <a class="plans__link btn-link--black-light" href="<?= get_permalink(31) ?>#signup">Sign up</a>
           </div>
         </div>
       </div>
