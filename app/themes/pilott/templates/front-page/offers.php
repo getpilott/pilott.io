@@ -6,7 +6,7 @@
 
 <section class="offers">
   <div class="offers__wrap">
-    <article class="offers__item _black-light match-h">
+    <article class="offers__item _black match-h">
       <img class="offers__icon" width="auto" height="180" src="<?= get_template_directory_uri();?>/dist/images/pilott-logo--green.svg" alt="">
       <h2 class="sm-sans offers__title white">Hosting Solutions</h2>
       <div class="offers__desc white xs-sans">

@@ -12,7 +12,7 @@ if (is_front_page()) {
 }
 ?>
 
-<section class="_gray-light section-padding">
+<section class="_white section-padding">
   <div class="container">
     <div class="features_wrap">
       <header class="features__lead section-lead row">
@@ -25,7 +25,7 @@ if (is_front_page()) {
         <article class="features__item">
           <img class="features__icon" width="auto" height="70" src="<?= get_template_directory_uri();?>/dist/images/managed-icon.svg" alt="">
           <h2 class="features__title black-light sm-sans">
-            Backed by AWS
+            Fully Managed
           </h2>
           <div class="features__title xs-sans">
             Don’t install or migrate anything. <br />We’ll handle it!
