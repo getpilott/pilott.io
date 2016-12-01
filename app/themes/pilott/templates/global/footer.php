@@ -87,7 +87,7 @@
         <a href="#" class="btn-outline--white">Login</a>
         <a href="#" class="btn-outline--white">Signup</a>
         -->
-        <a class="btn-outline--white" href="https://pilott.io/solutions/managed-hosting/">Sign up</a>
+        <a class="btn-outline--white" href="<?= esc_url(home_url('/')); ?>solutions/managed-hosting/#signup">Sign up</a>
       </section>
     </article>
   </section>

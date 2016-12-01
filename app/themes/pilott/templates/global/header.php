@@ -18,7 +18,7 @@
         <a class="btn-outline--white" href="#">Login</a>
         <a class="btn-outline--white" href="#">Sign up</a>
         -->
-        <a class="btn-outline--white" href="https://pilott.io/solutions/managed-hosting/">Sign up</a>
+        <a class="btn-outline--white" href="<?= esc_url(home_url('/')); ?>solutions/managed-hosting/#signup">Sign up</a>
       </div>
     </nav>
     <a class="global-nav-toggle" href="#">&#9776;</a>
