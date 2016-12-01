@@ -58,6 +58,10 @@
   @include img-responsive();
 }
 
+.img-g {
+  filter: grayscale(100%);
+}
+
 .bkg-cover {
   @include background-cover();
 }
