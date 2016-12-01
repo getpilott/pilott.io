@@ -67,7 +67,9 @@
     "composer/installers": "v1.0.25",
     "iamhexcoder/patterns": "0.2.0",
     "wpackagist-plugin/simple-page-ordering": "2.2.4",
-    "advanced-custom-fields/advanced-custom-fields-pro": "5.3.7"
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.3.7",
+    "wpackagist-plugin/c3-cloudfront-clear-cache": "4.3.0",
+    "wpackagist-plugin/nginx-champuru": "3.2.0"
   },
   "extra": {
     "installer-paths": {
