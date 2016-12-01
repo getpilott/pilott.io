@@ -18,7 +18,7 @@
           <div class="case-study__source white sm-sans">
             — Shaun Baer, J2 Design
           </div>
-          <a href="#" class="btn-outline--white">Learn More</a>
+          <a href="<?= get_permalink(31) ?>" class="btn-outline--white">Learn More</a>
         </div>
       </article>
     </div>
