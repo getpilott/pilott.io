@@ -5,7 +5,7 @@
     </header>
     <section class="contact">
       <?php
-        echo do_shortcode( '[contact-form-7 id="49" title="WooCommerce WordPress Hosting_copy"]' );
+        echo do_shortcode( '[contact-form-7 id="49" title="Managed WooCommerce Hosting"]' );
       ?>
     </section>
   </article>
