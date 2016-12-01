@@ -1,0 +1,33 @@
+// Solutions: Key Benefits
+// ----------------------
+
+
+.partners__item {
+  text-align: center;
+  margin-bottom: $gutter;
+  padding: $space-xl;
+
+  @include media($medium) {
+    @include span-columns(6);
+    @include omega(2n);
+
+  }
+}
+
+.partners__icon {
+  margin: 0 auto;
+  margin-bottom: $space-lg;
+
+  img {
+    max-height: rem(100);
+  }
+}
+
+.partners__title {
+  margin-bottom: $space-sm;
+}
+
+.partners__link {
+  display: block;
+  margin-top: $space-md;
+}
