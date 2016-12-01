@@ -41,7 +41,7 @@
           <div>
             <p>Our server architecture has optimal scaling capabilities and high redundancy for enterprise sites that cannot fail.</p>
           </div>
-          <a class="btn-outline--green" href="#">Learn More</a>
+          <a class="btn-outline--green" href="#" style="display:none;">Learn More</a>
         </div>
       </div>
     </article>
@@ -74,7 +74,7 @@
           <div>
             <p>Utilize the high performance AMIMOTO AMI server and AWS platform for increased flexibility.</p>
           </div>
-          <a class="btn-outline--green" href="#">Learn More</a>
+          <a class="btn-outline--green" href="#" style="display:none;">Learn More</a>
         </div>
       </div>
     </article>
@@ -108,7 +108,7 @@
           <div>
             <p>Whether you host with us or host your own site, our AWS-certified professional engineers are here to provide the customized support you need. </p>
           </div>
-          <a class="btn-outline--green" href="#">Learn More</a>
+          <a class="btn-outline--green" href="#" style="display:none;">Learn More</a>
         </div>
       </div>
     </article>
