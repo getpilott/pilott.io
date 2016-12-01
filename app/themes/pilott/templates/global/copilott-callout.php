@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="copilott-callout__link">
-          <a href="#" class="btn-outline--white">Learn More</a>
+          <a href="<?= get_permalink(33) ?>" class="btn-outline--white">Learn More</a>
         </div>
       </article>
     </div>
