@@ -75,18 +75,14 @@
       <section class="global-footer__contact">
         <article class="contact-item">
           <h4 class="xs-sans sm-caps white">Email Support</h2>
-          <a class="xs-sans sm-caps purple" href="mailto:support@getpilott.io">support@getpilott.io</a>
+          <a class="xs-sans sm-caps purple" href="mailto:support@pilott.io">support@pilott.io</a>
         </article>
         <article class="contact-item">
           <h4 class="xs-sans sm-caps white"> Say Hi</h4>
-          <a class="xs-sans sm-caps purple" href="mailto:hello@getpilott.io">hello@getpilott.io</a>
+          <a class="xs-sans sm-caps purple" href="mailto:hello@pilott.io">hello@pilott.io</a>
         </article>
       </section>
       <section class="global-footer__signup btn-group--stacked">
-        <!--
-        <a href="#" class="btn-outline--white">Login</a>
-        <a href="#" class="btn-outline--white">Signup</a>
-        -->
         <a class="btn-outline--white" href="<?= esc_url(home_url('/')); ?>solutions/managed-hosting/#signup">Sign up</a>
       </section>
     </article>
