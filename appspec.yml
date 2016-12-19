@@ -1,0 +1,24 @@
+version: 0.0
+os: linux
+permissions:
+   - object: /var/www/vhosts/pilott.io
+     pattern: "**"
+     owner: nginx
+     group: nginx
+     mode: 644
+     type:
+       - file
+files:
+    - source: index.php
+      destination: /var/www/vhosts/pilott.io
+    - source: app
+      destination: /var/www/vhosts/pilott.io/app
+    - source: lib
+      destination: /var/www/vhosts/pilott.io/lib
+    - source: composer.json
+      destination: /var/www/vhosts/pilott.io
+hooks:
+  AfterInstall:
+    - location: scripts/update_tasks
+      timeout: 600
+      runas: root
