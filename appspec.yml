@@ -1,0 +1,24 @@
+version: 0.0
+os: linux
+permissions:
+   - object: /var/www/vhosts/stg.pilott.io
+     pattern: "**"
+     owner: nginx
+     group: nginx
+     mode: 644
+     type:
+       - file
+files:
+    - source: index.php
+      destination: /var/www/vhosts/stg.pilott.io
+    - source: app
+      destination: /var/www/vhosts/stg.pilott.io/app
+    - source: lib
+      destination: /var/www/vhosts/stg.pilott.io/lib
+    - source: composer.json
+      destination: /var/www/vhosts/stg.pilott.io
+hooks:
+  AfterInstall:
+    - location: scripts/update_tasks_stg
+      timeout: 600
+      runas: root
