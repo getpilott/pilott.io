@@ -4,6 +4,6 @@ cd /var/www/vhosts/stg.pilott.io
 cd app/themes/pilott
 /usr/local/bin/npm install > /tmp/npm.log
 /usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
-/usr/bin/gulp --production > /tmp/gulp.log
+/usr/bin/gulp --staging > /tmp/gulp.log
 chown -R nginx:nginx /var/www/vhosts/stg.pilott.io
 cd /var/www/vhosts/stg.pilott.io
