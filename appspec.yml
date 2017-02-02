@@ -19,6 +19,6 @@ files:
       destination: /var/www/vhosts/stg.pilott.io
 hooks:
   AfterInstall:
-    - location: scripts/update_tasks
+    - location: scripts/update_tasks_stg
       timeout: 600
       runas: root
