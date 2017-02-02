@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /var/www/vhosts/stg.pilott.io
+/usr/local/bin/composer install -n > /tmp/composer.log
+cd app/themes/pilott
+/usr/local/bin/npm install > /tmp/npm.log
+/usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
+/usr/bin/gulp --staging > /tmp/gulp.log
+chown -R nginx:nginx /var/www/vhosts/stg.pilott.io
+cd /var/www/vhosts/stg.pilott.io
