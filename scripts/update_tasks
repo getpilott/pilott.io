@@ -1,0 +1,10 @@
+#!/bin/bash
+cd /var/www/vhosts/pilott.io
+/usr/local/bin/composer install -n > /tmp/composer.log
+cd app/themes/pilott
+/usr/local/bin/npm install > /tmp/npm.log
+/usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
+/usr/bin/gulp --production > /tmp/gulp.log
+chown -R nginx:nginx /var/www/vhosts/pilott.io
+cd /var/www/vhosts/pilott.io
+/usr/local/bin/wp c3 flush all --allow-root > /tmp/flush_cdn.log
