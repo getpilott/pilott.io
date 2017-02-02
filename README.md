@@ -1,4 +1,4 @@
-# getpilott.io
+# pilott.io
 
 #### Managed hosting for WordPress
 
