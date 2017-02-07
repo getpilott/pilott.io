@@ -1,6 +1,10 @@
 #!/bin/bash
 cd /var/www/vhosts/stg.pilott.io
-/usr/local/bin/composer install -n > /tmp/composer.log
+if [ -e /var/www/vhosts/stg.pilott.io/composer.lock ]; then
+  /usr/local/bin/composer update -n > /tmp/composer.log
+else
+  /usr/local/bin/composer install -n > /tmp/composer.log
+fi
 cd app/themes/pilott
 /usr/local/bin/npm install > /tmp/npm.log
 /usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
